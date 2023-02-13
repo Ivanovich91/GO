@@ -1,0 +1,42 @@
+.reviews__title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.reviews__max {
+  display: flex;
+}
+
+.reviews__oksana {
+  display: flex;
+  padding-top: 50px;
+}
+
+.reviews__nikita {
+  display: flex;
+  padding-top: 50px;
+}
+
+.reviews__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 690px;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.reviews__img {
+  width: 280px;
+  height: 280px;
+
+}
+
+figcaption {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 11px;
+}

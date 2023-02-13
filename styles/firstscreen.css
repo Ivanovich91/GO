@@ -1,0 +1,24 @@
+.main-screen {
+  max-width: 1180px;
+  min-height: 823px;
+}
+
+.main-screen__title {
+  font-size: 150px;
+  font-weight: 900;
+}
+
+.main-screen__desc {
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 98px;
+  margin-top: -123px;
+}
+
+.main-screen__img {
+  position: relative;
+  left: 632px;
+  top: -158px;
+}
+
+
