@@ -1,8 +1,12 @@
 .main-screen {
-  max-width: 1180px;
   min-height: 823px;
+  margin-bottom: 100px;
 }
 
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
 .main-screen__title {
   font-size: 150px;
   font-weight: 900;
@@ -13,12 +17,75 @@
   font-weight: 400;
   margin-left: 98px;
   margin-top: -123px;
+  margin-bottom: 30px;
 }
 
 .main-screen__img {
-  position: relative;
-  left: 632px;
-  top: -158px;
+  margin-top: -558px;
+  margin-left: 602px;
+}
+
+.main-screen-wrapper{
+  display: flex;
+  gap: 40px;
+  margin-bottom: 150px;
+}
+
+.main-screen__advantages {
+  max-width: 193px;
+}
+
+.main-screen__advantages_accent {
+  text-align: center;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 141px;
+  color: #CD06FF;
+}
+
+.main-screen__advantages_accent-new {
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 106px;
+  color: #CD06FF;
+  margin-top: 30px;
+}
+
+.main__screen__advantages_text {
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.paragraph__text {
+  padding-top: 5px;
+}
+
+.main__screen-button {
+  width: 374px;
+  height: 80px;
+  border-radius: 10px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  background-color: #6C0287;
+  color: #FFFFFF;
+  border: none;
+}
+
+.main__screen-button:hover, .main__screen-button:focus {
+  background: #840AA3;
+}
+
+.main__screen-button:active {
+  background: #640AA3;
+}
+
+.main__screen-link {
+  position: absolute;
+  margin-left: 274px;
+  margin-top: 25px;
 }
 
 

@@ -1,11 +1,20 @@
+#location {
+  margin-bottom: 100px;
+}
+
 .location__title {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  margin-top: -40px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .location__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
   list-style-type: none;
   font-size: 70px;
   font-weight: 700;
@@ -15,35 +24,31 @@
 
 .location__item-vibes {
   background-image: url("../img/80s-vibes.jpg");
-  width: 1180px;
-  height: 710px;
+  width: 580px;
+  height: 349px;
   color: white;
-  padding-top: 275px;
-  margin-bottom: 60px;
+  padding: 94px;
 }
 
 .location__item-starwars {
   background-image: url("../img/star-wars.jpg");
-  width: 1180px;
-  height: 710px;
-  padding-top: 275px;
-  margin-bottom: 60px;
+  width: 580px;
+  height: 349px;
+  padding: 94px;
 }
 
 .location__item-wildwest {
   background-image: url("../img/wild-west.jpg");
-  width: 1180px;
-  height: 710px;
-  padding-top: 275px;
-  margin-bottom: 60px;
+  width: 580px;
+  height: 349px;
+  padding: 94px;
 }
 
 .location__item-neon {
   background-image: url("../img/neon-style.jpg");
-  width: 1180px;
-  height: 710px;
-  padding-top: 275px;
-  margin-bottom: 60px;
+  width: 580px;
+  height: 349px;
+  padding: 94px;
 }
 
 .link__item {

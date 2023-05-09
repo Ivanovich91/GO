@@ -1,9 +1,21 @@
+footer {
+  background: linear-gradient(#1B1A1B, #370A37);
+  height: 629px;
+}
+
+.contacts__container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-bottom: 150px;
+}
+
 .contacts__title {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 54px;
+  margin-bottom: 40px;
 }
 
 .contacts__text {
@@ -36,4 +48,17 @@
 
 .contacts__list-item {
   padding-left: 26px;
+}
+
+.copyright {
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.copyright__text {
+  font-size: 14px;
+  line-height: 16px;
 }

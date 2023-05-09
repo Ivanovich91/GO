@@ -1,11 +1,282 @@
-.form__title {
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
+.form {
+  background: #440F51;
+  padding-bottom: 80px;
 }
 
-form {
-  margin-left: 60px;
+.form__container {
+  max-width: 1180px;
+  height: 1114px;
+  margin: 0 auto;
 }
+
+fieldset {
+  border: 0;
+}
+
+.input__radio {
+  display: none;
+}
+
+.form__title {
+  padding-top: 80px;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.form__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form__halls {
+  display: flex;
+  gap: 60px;
+  margin-left: -11px;
+  padding-bottom: 60px;
+}
+
+.form__halls_label {
+  display: block;
+  width: 250px;
+  height: 55px;
+  background-color: #FFFFFF;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 7px 15px;
+}
+
+.form__entertainment {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  margin-bottom: 60px;
+}
+
+.form__entertainment_games {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.legend__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+
+.form__label {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field {
+  display: none;
+}
+
+input[type="date"]::-webkit-datetime-edit-day-field {
+  display: none;
+}
+
+input[type="date"]::-webkit-datetime-edit-year-field {
+  display: none;
+}
+
+input[type="date"]::-webkit-datetime-edit-text {
+  display: none;
+}
+
+input[type=time]::-webkit-datetime-edit-fields-wrapper {
+  display: none;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.input__games {
+  margin-right: 10px;
+}
+
+.input__games:focus {
+  border: 1px solid #CD06FF;
+}
+
+.input {
+  width: 27px;
+  height: 27px;
+}
+
+.square {
+  width: 25px;
+  height: 25px;
+}
+
+.date {
+  width: 134px;
+  height: 52px;
+  background-color: #FFFFFF;
+}
+
+
+.name {
+width: 280px;
+height: 52px;
+background-color: #FFFFFF;
+}
+
+.form__date_time-container {
+display: flex;
+justify-content: space-around;
+gap: 50px;
+margin-bottom: 40px;
+}
+
+.form__name {
+display: flex;
+flex-direction: column;
+gap: 14px;
+margin-right: 54px;
+}
+
+.form__contacts {
+display: flex;
+flex-direction: column;
+gap: 14px;
+margin-right: 50px;
+}
+
+.form__date_text {
+font-size: 14px;
+line-height: 16px;
+font-weight: 700;
+}
+
+.form__date_text:focus {
+border: 2px solid #CD06FF;
+}
+
+.date__label {
+color: #211E1E;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+}
+
+/*.date__label:after {
+content: url("../img/icon.svg");
+background-repeat: no-repeat;
+}*/
+
+.label__text {
+position: relative;
+left: 60px;
+}
+
+.label__text_time {
+position: relative;
+left: 70px;
+top: 5px;
+}
+
+.icon {
+  position: relative;
+  right: 50px;
+}
+
+.time__icon {
+  position: relative;
+  right: 35px;
+  top: 5px;
+}
+
+.label__text_count {
+position: relative;
+left: 180px;
+color: #211E1E;
+font-size: 18px;
+line-height: 28px;
+}
+
+.select {
+width: 300px;
+height: 52px;
+}
+
+.form__date {
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+.date__count {
+margin-left: -105px;
+}
+
+.date__label_time {
+margin-left: -50px;
+}
+
+.form__button {
+width: 300px;
+height: 60px;
+border-radius: 10px;
+border: none;
+font-size: 22px;
+color: #6C0287;
+text-transform: uppercase;
+font-weight: 700;
+float: right;
+margin-right: 50px;
+}
+
+.form__button:hover {
+border: 3px solid #6C0287;
+background: #EADEED;
+}
+
+.form__button:active {
+background: #EADEED;
+}
+
+.form__button:focus {
+border: 3px solid #6C0287;
+}
+
+.form__halls_label:hover {
+border: 3px solid #640AA3;
+background: #EADEED;
+}
+
+.form__halls_label:active {
+border: 3px solid #FFFFFF;
+background: #6C0287;
+color: #FFFFFF;
+}
+
+.form__halls_label:focus {
+border: 3px solid #640AA3;
+}
+
+
+
+
+
+
